@@ -65,7 +65,7 @@ public class Test_01 {
 
     @Test
     @Order(1)
-    public void Paso1() {
+    public void Prueba_xrayGrid() {
         base.Log("Se inicia prueba");
         pagini.IngresoPagina();
         pagini.buscar();
