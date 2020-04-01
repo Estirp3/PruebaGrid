@@ -56,12 +56,12 @@ public class Test_01 {
     public void tear(){
         driver.close();
     }
-/*
+
     @AfterEach
     public void afterEach(TestInfo testinfo) throws Exception {
         base.Log("Se toma Imagen");
         takeSnapShot(this.driver, this.getClass().getName()+"-"+testinfo.getDisplayName());
-    }*/
+    }
 
     @Test
     @Order(1)
