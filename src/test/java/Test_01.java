@@ -56,18 +56,19 @@ public class Test_01 {
     public void tear(){
         driver.close();
     }
-
+/*
     @AfterEach
     public void afterEach(TestInfo testinfo) throws Exception {
         base.Log("Se toma Imagen");
         takeSnapShot(this.driver, this.getClass().getName()+"-"+testinfo.getDisplayName());
-    }
+    }*/
 
     @Test
     @Order(1)
     public void Paso1() {
         base.Log("Se inicia prueba");
         pagini.IngresoPagina();
+        pagini.buscar();
     }
 
 

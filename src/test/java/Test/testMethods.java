@@ -6,7 +6,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import java.io.File;
-
+/*
 public class testMethods {
 
     public static void takeSnapShot(WebDriver webdriver, String fileWithPath) throws Exception{
@@ -22,4 +22,4 @@ public class testMethods {
         //Copy file at destination
         FileUtils.copyFile(SrcFile, DestFile);
     }
-}
+}*/
